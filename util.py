@@ -26,6 +26,11 @@ if True:    # comunicate
                 return reslist
             reslist.append(ans)
 
+    class QA:
+        answers = {}
+        def 回答収集(self, q: str):
+            self.answers[q] = 複数の具体的回答を集める(q)
+
 if True:    # exception
     class SystemError(Exception):
         pass
