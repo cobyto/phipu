@@ -1,6 +1,6 @@
 from copy import deepcopy as dc
 
-import util
+from lib import util
 
 class Source:
     title = "やりたいことの見つけ方"

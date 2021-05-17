@@ -1,7 +1,7 @@
 import json
 from copy import deepcopy as dc
 
-import util
+from lib import util
 
 class Source:
     title = "読書術　たくさんの本を速く読めるテクニック（Reading Strategies）"
